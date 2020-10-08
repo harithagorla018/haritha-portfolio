@@ -1,0 +1,151 @@
+
+.kls_fluidsection {
+	border:1px solid #f3f3f3;
+	background-color: #f3f3f3;
+	padding: 100px 0px;
+}
+
+.kls_section_inner {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+	margin: auto;
+	padding-top: 60px;
+
+}
+
+.sec_inner_img {
+	position: absolute;
+	left: 35%;
+	top: -50px;
+	width: 30%;
+	/*padding: 50px 0px;*/
+	border:1px solid #d0d0d0;
+	background-color: #d0d0d0;
+	border-radius: 7px 0px 7px 0px;
+ 
+}
+
+.sec_inner_imgs {
+	position: absolute;
+	top: -50px;
+	left: 71%;
+	width: 31%;
+	/*padding: 100px 0px;*/
+	border:1px solid #d0d0d0;
+	background-color: #d0d0d0;
+	border-radius: 7px 0px 7px 0px;
+}
+
+.sec_inner_imges {
+	position: absolute;
+	top: -50px;
+	left: -17px;
+	width: 30%;
+	/*padding: 100px 0px;*/
+	border:1px solid #d0d0d0;
+	background-color: #d0d0d0;
+	border-radius: 7px 0px 7px 0px;
+}
+.kls_partial_section {
+	margin-top: -92px;
+	padding-bottom: 70px;
+	
+}
+
+.kls_partial_sec_inner {
+	margin-left: 120px;
+}
+.partial_content {
+	width: 30%;
+	border: 1px solid #BFBFBF;
+  	background-color: white;
+  	box-shadow: 1px 1px 1px  #aaaaaa;
+  	border-radius: 9px 0px 0px 0px;
+	text-align: center;
+	padding: 0px 8px;
+	padding-top: 110px;
+	border-bottom: 2px solid grey;
+	margin-right: 10px;
+}
+
+.partial_content h5 {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.kls_indicator {
+	width: 10%;
+	margin: auto;
+	padding-top: 15px;
+}
+
+#kls_indicator_two {
+	margin-left: 3px
+	border:1px solid black;
+	background-color: #000;
+}
+
+.partial_content p {
+	font-size: 16px;
+	color: grey;
+	padding: 25px 0px;
+	line-height: 1.5;
+} 
+
+.partial_content a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000;
+	font-weight: bold;
+	font-size: 12px;
+	padding-bottom: 5px;
+	border-bottom: 1px dotted;
+
+}
+
+#partial_content {
+	background-color: #000;
+	border-bottom: 2px solid orange
+
+}
+
+#partial_content h5 {
+	font-size: 14px;
+}
+
+#partial_content a {
+	color: #fff;
+}
+
+#sec_indicator_two {
+	background-color: white;
+	border:1px solid white;
+}
+ 
+.sec_indicators{
+	display: flex;
+	width: 6%;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+.sec_indicator_one {
+	width: 3px;
+	height: 3px;
+	border:1px solid orange;
+	background-color: orange;
+	margin-right: 3px;
+
+}
+
+.sec_indicator_two {
+	width: 3px;
+	height: 3px;
+	border:1px solid #000;
+	background-color: #000;
+
+}
+

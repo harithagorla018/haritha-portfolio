@@ -1,0 +1,44 @@
+.sec-about {
+	background-image: url(../images/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    padding-top: 80px;
+    /*border:1px solid red;*/
+    /*background-color: #dddddd;*/
+
+}
+.cust-about {
+	width: 70%;
+	/*border:1px solid red;*/
+	margin: auto;
+	/*margin-top: 66px;*/
+	padding: 25px;
+	background-color: #424040;
+	/*opacity: 0.9;*/
+	/*padding-bottom: 40px;*/
+
+}
+
+.custom-about {
+	color: white;
+    font-family: system-ui;
+    text-shadow: 1px 1px orange;
+}
+.custom-style-about p {
+	font-size: 20px;
+	margin: 0;
+	color: white;
+}
+
+.style-about {
+	border:3px solid #c55151;
+	padding-top: 20px;
+}
+
+.style-about p {
+	font-size: 18px;
+	font-family: sans-serif;
+	color: white;
+
+}

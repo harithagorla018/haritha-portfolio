@@ -1,0 +1,514 @@
+@charset "utf-8";
+
+/**
+ * Name: Portfolio Project
+ * Author: Haritha G
+ * Created: 21-09-2020
+ * Author url: https://www.kunchams.com
+ * Version: 1.0
+ * License:
+ * Description: Portfolio Project
+ */
+
+/* Table of Contents
+   ----------------- */
+
+/**
+  01. Side Navbar
+
+  02. SideText	 
+
+  03. Home section
+
+  04. About section
+
+  05. Education section
+
+  06. Experience section
+
+  07. Skills section
+
+  08. Projects section
+
+  09. Contact section
+ */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+.bg_img {	
+	background-image: url('../images/image2.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 100vh;
+	opacity: 0.8;	
+}
+
+/*----------------*\
+  01. Side Nav bar
+\*----------------*/   
+
+.sidenav {
+	position: fixed;
+	width: 20%;
+	height: 100vh;
+	background-color: black;	
+	opacity: 0.9;
+	border-radius: 15px 30px 15px 30px;
+	
+}
+
+.sidenav a {
+	text-decoration: none;
+	color: white;
+	text-shadow: 2px 2px 2px 2px;
+	font-family:'Playfair Display', serif;
+	margin: auto;
+	font-family: sans-serif;
+	font-size: 18px;
+	
+}
+
+.wrap-nav {	
+	background-color: #e26d65;
+	box-shadow: 1px 2px 2px 1px ;
+	border-radius: 5px 8px 5px 8px;
+
+}
+
+/*-------------*\
+  02. SideText
+\*-------------*/   
+
+.side-text {
+	color: #5d0808;
+	opacity: 0.9;	
+	text-shadow: 3px 0px 7px rgba(81,67,21,0.8), 
+	  -3px 0px 7px rgba(81,67,21,0.8), 
+	  0px 4px 7px rgba(81,67,21,0.8);
+}
+
+.cust-side-text {
+	position: absolute;	
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.custom-side-text {
+	position: relative;
+	height: 650px;
+	border:1px solid red;
+}
+
+#particles {
+	position: relative;
+    width: 100%;
+    height: 100vh;
+    margin-left: 26%;
+}
+
+#particles > div {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    color: var(--mainWhite);
+    transform: translate(-50%,-50%);
+}
+
+/*-----------------*\
+  03. Home section
+\*-----------------*/   
+
+.cust-home {
+	background-image: url('../images/image6.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 100vh;
+	
+}
+
+.cust_img img {
+	border-radius: 80%;
+}
+
+.cust_img h2  {
+	color:#e09d9d;
+	text-shadow: 2px 2px  #282927;
+}
+
+.cust_info  {
+	color: white;
+}
+
+.cust_span {
+	margin-left: 65px;
+}
+
+
+/*------------------*\
+  04. About section
+\*------------------*/   
+
+.sec-about {
+	background-image: url(../images/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    padding-top: 80px;
+
+}
+
+.cust-about {
+	width: 70%;
+	margin: auto;
+	padding: 25px;
+	background-color: #424040;
+
+}
+
+.custom-about {
+	color: white;
+    font-family: system-ui;
+    text-shadow: 1px 1px orange;
+}
+
+.custom-style-about p {
+	font-size: 20px;
+	margin: 0;
+	color: white;
+}
+
+.style-about {
+	border:3px solid #c55151;
+	padding-top: 20px;
+}
+
+.style-about p {
+	font-size: 18px;
+	font-family: sans-serif;
+	color: white;
+
+}
+
+/*----------------------*\
+  05. Education section
+\*----------------------*/   
+
+.sec-edu{
+	background-image: url('../images/img13.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 100vh;
+
+}
+
+.cust-education {
+	margin-top: 100px;
+	border:2px solid #b1aeae;
+	padding: 10px;
+	background-color: white;
+	border-radius: 10px 15px 10px 15px;
+}
+
+.cust-education h2 {
+	font-family: 'Playfair Display', serif;
+	text-shadow: 2px 1px 2px;
+    border: 1px solid #84b8d6;
+    color: #575a5d;
+    box-shadow: 2px 1px 1px 2px #7a99de;
+}
+
+.custom-style-edu  h5 {
+	font-family: 'DM Serif Display', serif;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	color: #403434;
+
+}
+
+.custom-style-edu h6 {
+	color: #6b6767;
+}
+
+.cust-edu h5{
+	padding-bottom: 25px;
+	border-bottom: 2px solid #b1aeae;
+
+}
+
+.cus-edu h6 {
+	padding-top: 15px;
+}
+
+.edu-cust {
+	margin-left: 15px;
+	padding-left: 15px;
+	border-left: 2px solid #b1aeae;
+}
+
+
+/*-----------------------*\
+  06. Experience section
+\*-----------------------*/   
+
+.sec-exp {
+	background-image: url('../images/image9.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 100vh;
+	opacity: 0.9;
+	padding-top: 8px;
+}
+
+.custom-exp {
+	margin: auto;
+	background-color: #efe2e2;
+	border-radius: 15px 55px 15px 55px;
+}
+
+.custom-style-exp {
+	width: 1px;
+	background-color: #49b2e4;
+	border-radius: 50%;
+	height: 0px;
+	margin-top: 7px;
+}
+
+.cust-exp {
+	border:2px solid #49b2e4;
+	border-radius: 10px 10px 10px 10px;
+}
+
+
+/*-----------------------*\
+  07. Skills section
+\*-----------------------*/ 
+
+.sec-skills {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-image: url('../images/img14.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 100vh;
+	
+}
+
+.cust-skills {
+	background-color: #ece6e6;
+	border-radius: 10px 25px 10px 25px;
+	
+}
+
+.container {
+	position: relative;
+	width: 500px;
+}
+
+.container h2 {
+	color: #000;
+	text-shadow: 2px 2px 2px #695f19;
+}
+
+.container .skills {
+	position: relative;
+	display: flex;
+	margin: 20px 0;
+	padding: 10px 20px 10px;
+	background: linear-gradient(#9e9292 0%,#333 10%,#333232);
+	border-radius: 8px;
+	overflow: hidden;
+	border:2px solid #ecc2c2;
+	transition: 0.5s;
+}
+
+.container:hover .skills{
+	opacity: 0.05;
+}
+
+.container .skills:hover {
+	opacity: 1;
+	transform: scale(1.1);
+}
+.container .skills:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50%;
+	background: rgba(255,255,255,.1);
+	z-index: 10;
+}
+
+.container .skills .Name {
+	position: relative;
+	width: 110px;
+	text-align: right;
+	color: #fff;
+	margin-top: -2px;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+}
+
+.container .skills .Value {
+	position: relative;
+	width: 40px;
+	text-align: left;
+	color: #fff;
+	margin-top: -2px;
+	text-transform: uppercase;
+	font-weight: bold;
+} 
+
+
+.container .skills .percent {
+	position: relative;
+	width: calc(100% - 150px);
+	height: 20px;
+	margin: 0 10px;
+	border-radius: 10px;
+	background: #151515;
+	box-shadow: inset 0 0 10px #000;
+	overflow: hidden;
+}
+
+.container .skills .percent .progress {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 70%;
+	height: 100%;
+	border-radius: 10px;
+	background: #fff;
+	animation: animate 4s ease-in-out forwards;
+
+}
+
+@keyframes animate {
+	from {
+		width: 0;
+	}
+}
+
+.container .skills:nth-child(2) .percent .progress
+
+{
+	background: linear-gradient(45deg,#1fe6ff,#673AB7);
+}
+
+
+.container .skills:nth-child(3) .percent .progress
+
+{
+	background: linear-gradient(45deg,#3bc0ff,#33ff00);
+}
+
+
+.container .skills:nth-child(4) .percent .progress
+
+{
+	background: linear-gradient(45deg,#ffee54,#ff00ca);
+}
+
+
+.container .skills:nth-child(5) .percent .progress
+
+{
+	background: linear-gradient(45deg,#22ffde,#2196F3);
+}
+
+
+/*-----------------------*\
+  08. Projects section
+\*-----------------------*/ 
+
+
+.sec-projects {
+	background: #ece0e0;
+}
+.cust-skills span {
+	width: 100px;
+}
+
+.custom-skills {
+	font-size: 18px;
+	padding-left: 45px;
+}
+
+.cust-style-skills {
+	 box-shadow: 2px 2px 2px 2px #908e8e;
+}
+
+
+
+/*-----------------------*\
+  09. Contact section
+\*-----------------------*/ 
+
+.sec-contact{
+	background-image: url('../images/img11.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 100vh;
+	padding-top: 100px;
+	opacity: 0.9;
+
+}
+
+input {
+	border: 1px solid grey;
+    box-shadow: 2px 2px 2px 2px grey;
+    border-top: none;
+    border-left: none;
+    opacity: 0.7;
+   
+}
+
+textarea {
+	overflow: hidden;
+	opacity: 0.6;
+}
+
+.custom-contact {
+	border-radius: 10px 15px 10px 15px;
+	margin-left: 160px;
+	background-color: white;
+}
+
+.custom-contact h2 {
+	color: #302f31;
+	text-shadow: 1px 2px 1px #847e7e;
+}
+
+.cust-style-contact p {
+	font-size: 18px;
+}
+
+.cust-contact {
+	border-radius: 0px 15px 10px 0px;
+	background-color: black;
+}
+
+.cust-contact  {
+	color: white;
+}
+.cus-contact a i {
+	font-size: 25px;
+	margin-right: 20px;
+	color: white;
+	margin-top: 100px;
+}
+
+.cus-contact a i:hover{
+		color:#41a5ec;
+}
+
+
+

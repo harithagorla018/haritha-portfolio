@@ -1,0 +1,62 @@
+.sec-contact{
+	background-image: url('../images/img11.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 100vh;
+	padding-top: 100px;
+	opacity: 0.9;
+	/*margin-top: 290px !important;*/
+
+}
+
+input {
+	/*box-shadow: 2px 2px;*/
+	border: 1px solid grey;
+    box-shadow: 2px 2px 2px 2px grey;
+    border-top: none;
+    border-left: none;
+    opacity: 0.7;
+    /*font-weight: bold;*/
+}
+
+textarea {
+	overflow: hidden;
+	opacity: 0.6;
+}
+
+.custom-contact {
+	border-radius: 10px 15px 10px 15px;
+	margin-left: 160px;
+	/*background-color: #d6d0d0;*/
+	/*background-color: grey;*/
+	background-color: white;
+}
+
+.custom-contact h2 {
+	color: #302f31;
+	text-shadow: 1px 2px 1px #847e7e;
+}
+
+.cust-style-contact p {
+	font-size: 18px;
+}
+
+.cust-contact {
+	border-radius: 0px 15px 10px 0px;
+	background-color: black;
+}
+
+.cust-contact  {
+	color: white;
+}
+.cus-contact a i {
+	font-size: 25px;
+	margin-right: 20px;
+	color: white;
+	margin-top: 100px;
+}
+
+.cus-contact a i:hover{
+		color:#41a5ec;
+}
+
